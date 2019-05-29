@@ -4,8 +4,6 @@ const Env = use('Env')
 const Youch = use('Youch')
 const BaseExceptionHandler = use('BaseExceptionHandler')
 
-const Sentry = require('@sentry/node')
-
 class ExceptionHandler extends BaseExceptionHandler {
   /**
    * Handle exception thrown during the HTTP lifecycle
